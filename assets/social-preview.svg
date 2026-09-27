@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Base GMGN — project cover</title>
+  <desc id="desc">GM/GN interactions. Wallet-based ERC-20 deployment. An abstract project cover by 0xkuzeydurden, not an application screenshot.</desc>
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="44%" r="74%"><stop offset="0" stop-color="#172D5A" stop-opacity=".72"/><stop offset=".75" stop-color="#080E18" stop-opacity="0"/></radialGradient>
+    <linearGradient id="rule"><stop stop-color="#8EAEFF" stop-opacity=".75"/><stop offset="1" stop-color="#8EAEFF" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="#080E18"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <g stroke="#D1E2FF" stroke-width="1" opacity=".035"><path d="M0 0V640"/><path d="M80 0V640"/><path d="M160 0V640"/><path d="M240 0V640"/><path d="M320 0V640"/><path d="M400 0V640"/><path d="M480 0V640"/><path d="M560 0V640"/><path d="M640 0V640"/><path d="M720 0V640"/><path d="M800 0V640"/><path d="M880 0V640"/><path d="M960 0V640"/><path d="M1040 0V640"/><path d="M1120 0V640"/><path d="M1200 0V640"/><path d="M1280 0V640"/><path d="M0 0H1280"/><path d="M0 80H1280"/><path d="M0 160H1280"/><path d="M0 240H1280"/><path d="M0 320H1280"/><path d="M0 400H1280"/><path d="M0 480H1280"/><path d="M0 560H1280"/><path d="M0 640H1280"/></g>
+  <path d="M810 120V483" stroke="#8EAEFF" stroke-width="1" opacity=".13"/>
+  <rect x="82" y="118" width="90" height="3" rx="1.5" fill="#8EAEFF"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif" fill="#F5F8FD">
+    <text x="82" y="79" font-size="19" font-weight="600" letter-spacing=".1">0xkuzeydurden</text>
+    <text x="1200" y="79" text-anchor="end" font-size="13" font-weight="600" letter-spacing="2.4" fill="#8EAEFF">BASE MAINNET</text>
+    <text x="78" y="226" font-size="86" font-weight="700" letter-spacing="-3.7">Base</text><text x="78" y="322" font-size="86" font-weight="700" letter-spacing="-3.7">GMGN</text>
+    <text x="82" y="394" font-size="25" fill="#CBD5E1">GM/GN interactions.</text><text x="82" y="433" font-size="25" fill="#CBD5E1">Wallet-based ERC-20 deployment.</text>
+    <text x="82" y="482" font-size="12" font-weight="600" letter-spacing="1.55" fill="#8EAEFF">NEXT.JS  /  SOLIDITY  /  WAGMI</text>
+    <path d="M82 529H1200" stroke="url(#rule)" stroke-width="1"/>
+    <text x="82" y="578" font-size="17" font-weight="600" fill="#E1E8F0">base-gmgn</text>
+    <text x="1200" y="578" text-anchor="end" font-size="12" letter-spacing="1.7" fill="#8392A5">PROJECT COVER</text>
+  </g>
+  <g transform="translate(1010 286)" fill="none" stroke="#8EAEFF" stroke-linecap="round" stroke-linejoin="round"><circle r="128" stroke-width="1.5" opacity=".28"/>
+        <circle cx="-38" cy="-30" r="76" stroke-width="2.5"/>
+        <circle cx="38" cy="30" r="76" stroke-width="2.5"/>
+        <path d="M-76-30H0M-38-68V8" stroke-width="4"/>
+        <path d="M51-10A43 43 0 1 0 78 59A46 46 0 0 1 51-10Z" fill="#8EAEFF" fill-opacity=".14" stroke-width="2.5"/>
+        <path d="M-38-121V-106M-119-30H-104M-95-87L-84-76M19-87L8-76" stroke-width="2" opacity=".65"/>
+        <path d="M-90 107L-113 89M90-107L113-89" stroke-width="4" opacity=".5"/></g>
+</svg>

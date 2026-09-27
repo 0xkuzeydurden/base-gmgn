@@ -1,7 +1,11 @@
 # Base GMGN
 
+[![CI](https://github.com/0xkuzeydurden/base-gmgn/actions/workflows/ci.yml/badge.svg)](https://github.com/0xkuzeydurden/base-gmgn/actions/workflows/ci.yml)
+
 A wallet-connected dApp for GM/GN interactions and ERC20 deployment on Base mainnet.
 The project combines a Next.js interface with Solidity contracts built using Hardhat.
+
+![Base GMGN project cover](assets/social-preview.png)
 
 ## Features
 
@@ -15,7 +19,7 @@ provides token deployment; it does not provide a separate minting form.
 
 ## Local development
 
-The workspace uses pnpm; `package.json` pins `pnpm@8.15.4`.
+Use Node.js 22. The workspace pins `pnpm@8.15.4` in `package.json`.
 
 ```bash
 git clone https://github.com/0xkuzeydurden/base-gmgn.git
@@ -80,3 +84,9 @@ before deploying.
 This is an experimental application. The repository currently contains no automated
 test suite. Contract behavior and wallet flows should be validated before relying
 on a deployment with funds.
+
+## Continuous integration
+
+The CI workflow installs dependencies from the lockfile, compiles the contracts,
+builds the Next.js application with its TypeScript checks, and typechecks the
+contract tooling. These checks do not deploy contracts or require wallet keys.
